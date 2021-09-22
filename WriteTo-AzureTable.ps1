@@ -115,7 +115,7 @@ Add-Member -InputObject $TableObject -Membertype NoteProperty -Name "PartitionKe
 Add-Member -InputObject $TableObject -Membertype NoteProperty -Name "RowKey" -Value ($ENV:COMPUTERNAME).ToString();
 
 ###Add values to the object here
-Add-Member -InputObject $TableObject -Membertype NoteProperty -Name "SerialNumber" -Value ((Get-WmiObject win32_bios).SerialNumber).ToString();
+Add-Member -InputObject $TableObject -Membertype NoteProperty -Name "<KEYNAME>" -Value (<VALUE>).ToString();
 
 #Insert data to the Azure table.
 Add-AzureTableData -Endpoint $AzureEndpoint -SharedAccessSignature $AzureSharedAccessSignature -Table $AzureTable -TableData (ConvertTo-HashTable -InputObject $TableObject);
