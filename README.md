@@ -26,7 +26,7 @@ Replace <STORAGEACCOUNTNAME>, <SASTOKEN> and <TABLENAME> to your informations.
 ```powershell
 Add-Member -InputObject $TableObject -Membertype NoteProperty -Name "<KEYNAME>" -Value (<VALUE>).ToString();
 ```
-Replace <KEYNAME> and <VALUE> to your values.
+Replace <KEYNAME> and <VALUE> to your values. You can duplicate this line as much as you need to upload all your Key/Value pairs.
 
 
 ## Requirements:
