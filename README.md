@@ -31,7 +31,7 @@ Replace <KEYNAME> and <VALUE> to your values. You can duplicate this line as muc
 
 ## Requirements:
 - PowerShell 5.0
-- Windows 10
+- Windows 10 or later
 
 # Feature requests
 If you have an idea for a new feature in this repo, send me an issue with the subject Feature request and write your suggestion in the text. I will then check the feature and implement it if necessary.
