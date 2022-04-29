@@ -11,7 +11,7 @@ The Storage Account that you will use must be accessible from your network or th
 
 ## Install:
 ```powershell
-PowerShell.exe -ExecutionPolicy Bypass -Command .\Azure-WriteTo-SATable.ps1
+C:\Windows\SysNative\WindowsPowershell\v1.0\PowerShell.exe -ExecutionPolicy Bypass -Command .\Azure-WriteTo-SATable.ps1
 ```
 
 ## Script Parameter definitions:
